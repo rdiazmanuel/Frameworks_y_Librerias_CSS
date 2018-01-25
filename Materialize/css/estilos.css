@@ -1,0 +1,65 @@
+body{
+background-image: url(../img/tropical.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+width: 100%;
+height: 100%;
+
+}
+.contenedor {
+  height: 100%;
+  background: rgba(141, 159, 193, 0.50);
+  padding: 2%;
+}
+.logo{
+  border-radius: 25px;
+  margin-top: 1em;
+}
+.redes-s img{
+  width: 60px;
+}
+.texto{
+  text-align: justify;
+  te
+}
+.avatar{
+  width: 50%;
+}
+.ico{
+  margin: 3px;
+}
+.ilike-blue-container {
+    @extend .white-text;
+  }
+  /* label color */
+   .input-field label {
+     color: #fff;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #fff;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #fff;
+   }
+   .central img {
+     width: 100%;
+   }
