@@ -1,0 +1,64 @@
+body {
+  background-color: #2d2d2d;
+}
+
+header{
+  background-color: #ffcc80;
+
+
+}
+.img-logo{
+width: 8em;
+}
+ .ico-redes p {
+   text-align: center;
+ }
+
+.ico-redes img{
+  width: 3em;
+  margin-top: 40px
+}
+.ico-redes img:hover{
+  margin-top: 30px;
+  opacity: 0.9;
+}
+nav{
+  background:#ff9800 ;
+}
+
+.menu{
+    border-radius:0px 0px 5px 5px ;
+}
+.itens{
+  text-align: center;
+  display: inline-block;
+  padding: 0.8em;
+  font-size: 18px;
+}
+.itens a {
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.itens:hover{
+   background-color: #ef6c00;
+ }
+ .itens a:hover{
+  color: #fff;
+ }
+ .contenido{
+background-color: #f5f5f5;
+padding-bottom: 2em;
+border-radius: 5px;
+}
+.article{
+  padding: 1.5em;
+}
+.article-img{
+padding: 1.5em;
+}
+.glyphicon-user{
+font-size: 30px;
+}
